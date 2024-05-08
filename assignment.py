@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 import nltk
 import re
@@ -57,9 +51,6 @@ output_file = 'output.xlsx'
 output_df.to_excel(output_file, index=False)
 
 print("Output saved to:", output_file)
-
-
-# In[ ]:
 
 
 
